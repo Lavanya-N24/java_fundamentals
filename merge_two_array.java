@@ -10,6 +10,8 @@ public class merge_two_array {
             arr3[arr1.length+i]=arr2[i];
         }
         System.err.print("Merged array is: ");
-     
+        for(int i=0;i<arr3.length;i++){
+            System.out.print(arr3[i]+" ");
+        }
     }
 }
