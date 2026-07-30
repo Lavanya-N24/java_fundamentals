@@ -18,5 +18,6 @@ public class arrLength {
         }
 
         System.out.println(arrayLength(arr));
+        sc.close();
     }
 }

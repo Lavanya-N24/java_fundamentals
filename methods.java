@@ -1,7 +1,7 @@
 public class methods {
     public static void main(String[] args) {
-        computer comp=new computer();
-        comp.playMusic();
+    
+        computer.playMusic();
     }
 }
 
