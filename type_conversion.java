@@ -4,9 +4,11 @@ public static void main(String arg[])
 {
 
 float f=5.6f;
+System.out.println(f);
 int a =12;
 f=a;
-System.out.println(a);
+
+System.out.println(f);
 }
 } 
 

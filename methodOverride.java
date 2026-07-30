@@ -1,22 +1,36 @@
+class Animal {
 
- class Person {
-  void introduce() {
-        System.out.println("I am a person.");
+    void sound() {
+        System.out.println("Animal makes a sound");
     }
 }
 
-class CollegeStudent extends Person {
+class Dog extends Animal {
+
     @Override
-    void introduce() {
-        System.out.println("I am a college student.");
+    void sound() {
+        System.out.println("Dog barks");
     }
 }
 
-public class methodOverride { 
+class Cat extends Animal {
+
+    @Override
+    void sound() {
+        System.out.println("Cat meows");
+    }
+}
+
+public class methodOverride {
+
     public static void main(String[] args) {
-        
-        CollegeStudent s = new CollegeStudent();
-        s.introduce();
+
+        Animal a;
+
+        a = new Dog();
+        a.sound();
+
+        a = new Cat();
+        a.sound();
     }
 }
-

@@ -8,16 +8,15 @@ public class arrLength {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        int n = sc.nextInt();      // Number of elements
-        int[] arr = new int[n];
+        try (Scanner sc = new Scanner(System.in)) {
+            int n = sc.nextInt();      // Number of elements
+            int[] arr = new int[n];
 
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
 
-        System.out.println(arrayLength(arr));
-        sc.close();
+            System.out.println(arrayLength(arr));
+        }
     }
 }

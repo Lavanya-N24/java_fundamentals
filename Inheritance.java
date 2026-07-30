@@ -1,4 +1,4 @@
- class Calculator{
+ class Calculator2{
     int n1,n2;
     void add(){
         System.out.println(n1+n2);
@@ -9,7 +9,7 @@
     }
 
 }
- class AdvancedCalculator extends Calculator{
+ class AdvancedCalculator extends Calculator2{
     void mul(){
         System.out.println(n1*n2);
     }

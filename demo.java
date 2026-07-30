@@ -1,5 +1,5 @@
-class calculator{
-    int a;
+class calculator1{
+    
 
    
     public int add(int n1,int n2){
@@ -13,8 +13,9 @@ public class demo {
     public static void main(String[] args) {
         int num1=4;
         int num2=5;
-        calculator calc=new calculator();//object creation-+-+-+-+-
+        calculator1 calc=new calculator1();//object creation-+-+-+-+-
         int sum=calc.add(num1,num2);
         System.out.println("The sum is: " + sum);
+    
     }
 }
