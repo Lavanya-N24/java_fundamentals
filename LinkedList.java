@@ -1,14 +1,14 @@
- import java.util.*;
-public class ArrayList_ex {
+public class LinkedList {
     public static void main(String args[]){
-        ArrayList<String> list = new ArrayList<>();
+        java.util.LinkedList<String> list = new java.util.LinkedList<>();
         // add elements to the list
         list.add("Apple");
         list.add("Banana");
         list.add("Cherry");
         for (String fruit : list) {
-            System.out.println(fruit);
+            System.out.print(fruit +"->" );
         }
+        System.out.println("null");
         //get element at index 1
         list.get(1); // returns "Banana"
         //add element at index 1 in between
@@ -27,9 +27,5 @@ public class ArrayList_ex {
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
-        //sorting the elements in the list use in integer list
-        // Collections.sort(list);
     }
 }
-//  ArrayList<Integer> list = new ArrayList<>();
-//   ArrayList<Boolean> list = new ArrayList<>();
